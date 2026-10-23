@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Glass TV's own settings panel and the waktu solat widget. English only for now. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="glass_settings">Glass TV</string>
+    <string name="set_zoom">Opening animation</string>
+    <string name="set_zoom_speed">Animation speed</string>
+    <string name="set_motion">Home motion</string>
+    <string name="set_selection">Selection</string>
+    <string name="selection_frame">Glass frame</string>
+    <string name="selection_subtle">Subtle</string>
+    <string name="set_prayer">Waktu solat</string>
+    <string name="set_prayer_zone">Prayer zone</string>
+    <string name="set_prayer_reminder">Prayer reminder</string>
+    <string name="set_wifi">Wi-Fi button</string>
+    <string name="set_restart_note">Home restarts when you close this</string>
+
+    <string name="zoom_card">Card</string>
+    <string name="zoom_glass">Glass</string>
+    <string name="zoom_lift">Lift</string>
+    <string name="zoom_stretch">Stretch</string>
+    <string name="zoom_off">Off</string>
+    <string name="speed_slow">Slow</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Fast</string>
+    <string name="motion_lively">Lively</string>
+    <string name="motion_calm">Calm</string>
+    <string name="prayer_card">Card</string>
+    <string name="prayer_pill">Top bar</string>
+    <string name="prayer_strip">Strip</string>
+    <string name="prayer_off">Off</string>
+    <string name="zone_auto">Auto</string>
+    <string name="zone_auto_found">Auto · %1$s</string>
+    <string name="reminder_before">%1$d min before</string>
+    <string name="reminder_off">Off</string>
+    <string name="shown">Shown</string>
+    <string name="hidden">Hidden</string>
+
+    <string name="prayer_title">Waktu Solat</string>
+    <string name="prayer_loading">Getting today\'s times…</string>
+    <string name="prayer_pick_zone">Pick your zone in Glass TV settings</string>
+    <string name="prayer_reminder">%1$s in %2$d min · %3$s</string>
+</resources>

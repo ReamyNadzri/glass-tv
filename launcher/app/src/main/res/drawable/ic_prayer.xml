@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A crescent and a star, for the waktu solat widget and its row in Glass TV's settings. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp" android:height="22dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#FFF6D27A"
+        android:pathData="M14.5,3.2a8.8,8.8 0,1 0,6.3 14.6A7.4,7.4 0,0 1,14.5 3.2z" />
+    <path android:fillColor="#FFF6D27A"
+        android:pathData="M18.6,6.2l0.5,1.4 1.4,0.5 -1.4,0.5 -0.5,1.4 -0.5,-1.4 -1.4,-0.5 1.4,-0.5z" />
+</vector>

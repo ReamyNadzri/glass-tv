@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home holds still under the app's fade-in, so the full-screen tile stays behind it (AppZoom). -->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromAlpha="1"
+    android:toAlpha="1"
+    android:duration="260" />

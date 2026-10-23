@@ -1,0 +1,23 @@
+tools/venv/
+tools/adbkey/
+__pycache__/
+launcher/.gradle/
+launcher/build/
+launcher/app/build/
+launcher/local.properties
+# your own TV's dumps (serial, android_id, device names) stay local
+backup/
+.DS_Store
+
+# App banners for the webOS simulator preview only: other companies' logos, kept out of the repository.
+webos/samples/
+*.ipk
+
+# Local publication notes, logs and screenshots.
+.local/
+# Device credentials and signing material must stay on each user's computer.
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
