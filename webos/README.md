@@ -23,6 +23,9 @@ NVIDIA Shield) and set it up as in the main [README](../README.md).
 
 ## Running it
 
+This edition uses app ID `com.reamynadzri.glasstv`. If you already installed a preview with a
+different app ID, this installs as a separate app rather than updating that copy.
+
 You need Node.js and LG's tools: the [webOS TV Simulator](https://webostv.developer.lge.com/develop/tools/simulator-installation)
 and the command-line tools (`npm install -g @webos-tools/cli`).
 
@@ -36,9 +39,9 @@ account, switch Dev Mode on, then:
 
 ```bash
 ares-setup-device                         # add the TV (its IP and the passphrase Dev Mode shows)
-ares-package -e samples -e test webos     # makes com.cocombee.glasstv_0.1.0_all.ipk
-ares-install -d <tv> com.cocombee.glasstv_0.1.0_all.ipk
-ares-launch -d <tv> com.cocombee.glasstv
+ares-package -e samples -e test webos     # makes com.reamynadzri.glasstv_0.1.0_all.ipk
+ares-install -d <tv> com.reamynadzri.glasstv_0.1.0_all.ipk
+ares-launch -d <tv> com.reamynadzri.glasstv
 ```
 
 Developer Mode switches itself off after 50 hours unless you extend it in the Dev Mode app.

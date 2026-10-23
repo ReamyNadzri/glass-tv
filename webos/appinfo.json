@@ -1,7 +1,7 @@
 {
-  "id": "com.cocombee.glasstv",
+  "id": "com.reamynadzri.glasstv",
   "version": "0.1.0",
-  "vendor": "cocombee",
+  "vendor": "ReamyNadzri",
   "type": "web",
   "main": "index.html",
   "title": "Glass TV",

@@ -1,12 +1,23 @@
 # Glass TV
 
-This repository shares a source snapshot of [cocombee/Glass TV](https://github.com/cocombee/glass-tv)
-(upstream commit `4a4cf8a`). Glass TV builds on Gathin's Clean Your TV; the original credits and
-licenses are preserved below. Each user sets up their own TV connection and keeps device backups,
-pairing keys and local Android SDK settings on their own computer.
+**ReamyNadzri's Glass TV** adds app zoom animations, JAKIM prayer times, settings you control
+from the remote, and a glass frame around the selected app to a lightweight Android TV home screen.
 
 [![CI](https://github.com/ReamyNadzri/glass-tv/actions/workflows/ci.yml/badge.svg)](https://github.com/ReamyNadzri/glass-tv/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+## New Android TV features in this version
+
+- **App opening and return animations.** Choose Card, Glass, Lift, Stretch or Off, with Slow,
+  Normal and Fast speeds. Returning from an app reverses the animation back into its tile.
+- **JAKIM Waktu Solat widget.** Show prayer times in a glass card, top-bar pill or dock strip,
+  with a countdown and optional reminders on Home. Pick a prayer zone or let the TV's location
+  choose it; the month's times are cached on the TV.
+- **Settings directly from the remote.** Change animation style and speed, calm or lively motion,
+  prayer layout and zone, reminders, and the Wi-Fi button from the Glass TV settings panel.
+  Saved choices take precedence over theme defaults.
+- **Selectable glass focus frame.** A visible glass border surrounds the selected app by default;
+  switch to the subtler selection in settings if you prefer.
 
 **Make your Android TV or Google TV fast and ad-free again: strip out the bloat and ads, free up memory,
 and come home to just your apps, with a new place to visit behind them every week.**
@@ -41,7 +52,7 @@ See [media credits](docs/media/README.md).
   bar and in the menus it is dark. It glides and changes shape from one to the next, never jumps.
 - **Apps zoom open, like on Apple TV.** OK grows the tile's colour until it fills the screen with the app's
   picture sharp in the middle, Home pushing in and darkening behind it, and the app fades in over it. Coming
-  back, it shrinks into its place while Home settles back. Card, Glass, Lift or Off, at three speeds.
+  back, it shrinks into its place while Home settles back. Card, Glass, Lift, Stretch or Off, at three speeds.
 - **Waktu solat.** Today's prayer times from JAKIM in a glass card, a top-bar pill or a strip above the dock,
   with a countdown to the next one and an optional reminder on Home. The zone comes from the TV's location or
   is picked from JAKIM's list; the month is fetched once and kept on the TV.
@@ -144,7 +155,6 @@ online.
 
 ## Credits and licence
 
-- Glass TV source and existing documentation: [cocombee/Glass TV](https://github.com/cocombee/glass-tv).
 - Built on [CleanYourTV](https://github.com/Gathin23/cleanyourtv) © 2026 Gathin, MIT licence — see
   [LICENSE](LICENSE). Its debloat lists, tools and launcher are the foundation of this project.
 - The Outfit typeface is under the SIL Open Font License (`launcher/FONT-LICENSE-OFL.txt`).

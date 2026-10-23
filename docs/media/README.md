@@ -5,7 +5,7 @@ the app grid, Inputs and the clock screensaver. `glass-tv-tour.gif` is the anima
 preview shown in the repository README. These are screenshot slides, not a recording of live TV interaction.
 
 The source images are the existing `home.jpg`, `grid.jpg`, `inputs.jpg` and `clock.jpg` in
-[`../screenshots/`](../screenshots/), from [cocombee/Glass TV](https://github.com/cocombee/glass-tv).
+[`../screenshots/`](../screenshots/), included with this project.
 The places photography and captions originate from Bing's daily images (Microsoft); app logos
 belong to their respective owners. The title font is Outfit, included under the
 [SIL Open Font License](../../launcher/FONT-LICENSE-OFL.txt). No music or voice track is included.

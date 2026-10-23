@@ -18,7 +18,7 @@ Also run with Glass TV by others, for the parts they checked:
 
 | Device | System | Checked | Report |
 |---|---|---|---|
-| Toshiba TV with MIC (Hisense-made, `songshan`, MediaTek) | Google TV, Android 11 | Installed from Windows, became Home, Input button; the accessibility helpers are cleared on every boot on this firmware | [#4](https://github.com/cocombee/glass-tv/issues/4) |
+| Toshiba TV with MIC (Hisense-made, `songshan`, MediaTek) | Google TV, Android 11 | Installed from Windows, became Home, Input button; the accessibility helpers are cleared on every boot on this firmware | Previously reported installation |
 
 ## 2. Tested with the original launcher
 

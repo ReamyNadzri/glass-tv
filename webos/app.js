@@ -81,7 +81,7 @@
       inputs = list.filter(function (lp) { return INPUT_ID.test(lp.id); }).map(function (lp) {
         return { id: lp.id, title: lp.title };
       });
-      done(list.filter(function (lp) { return lp.id !== 'com.cocombee.glasstv' && !INPUT_ID.test(lp.id); }).map(function (lp) {
+      done(list.filter(function (lp) { return lp.id !== 'com.reamynadzri.glasstv' && !INPUT_ID.test(lp.id); }).map(function (lp) {
         return { id: lp.id, title: lp.title, icon: lp.largeIcon || lp.icon, banner: lp.bgImage,
           color: lp.bgColor || lp.iconColor || '#2a2a30' };
       }));
