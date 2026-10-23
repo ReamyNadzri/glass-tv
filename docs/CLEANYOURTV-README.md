@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://cleanyour.tv"><img src="https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/docs/banner.png" alt="CleanYourTV. Your TV, minus the ads." width="800"></a>
+  <a href="../README.md"><img src="media/glass-tv-hero.jpg" alt="Glass TV by ReamyNadzri" width="800"></a>
 </p>
 
 <p align="center">
@@ -25,7 +25,10 @@ and a one-line restore if you change your mind.**
 
 <h3 align="center">54 TVs with tested lists &nbsp;·&nbsp; 23 brands &nbsp;·&nbsp; 12 languages &nbsp;·&nbsp; 280 KB launcher</h3>
 
-![Before: stock Google TV home with a sponsored ad. After: the Clean Your TV launcher](../docs/stock-vs-new-side.jpg)
+This technical guide is based on [Clean Your TV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT).
+The current edition's features and newly created visualizations are in the [main README](../README.md).
+
+![App zoom and glass selection, visualized from the Glass TV source](media/glass-tv-focus.jpg)
 
 > Vibe coded my parents' TV this afternoon! It was showing a sponsored ad before you could even get
 > to Netflix. Gave Claude Code the model number, it found the TV on wifi, removed 25 Xiaomi packages
@@ -74,14 +77,8 @@ screenshots pulled from the TV. With this repo as context it takes about fifteen
 And a TV that stops working against you: no sponsored rows, no "Discover" nags, no analytics
 phoning home, no apps you never asked for.
 
-| | |
-|---|---|
-| ![The top shelf names the focused app over an ambient glow in its colour](../docs/focus-2-up-netflix.png) | ![The Inputs popup: HDMI ports with what is connected, AV and Live TV](../docs/inputs-menu.jpg) |
-| *Top shelf and ambient glow* | *Inputs: HDMI with connection state, AV, Live TV* |
-| ![The grid with the glass highlight on a tile and its name beneath](../docs/focus-1-fancode.png) | ![The Clock screensaver: a grey analog clock with the time and date beneath](../docs/clock-screensaver.png) |
-| *The grid, one glass highlight, the tile's name* | *Clock screensaver, drifts so nothing burns in* |
-| ![The aurora theme: a wallpaper and tinted pills, pushed without a rebuild](../docs/theme-aurora.jpg) | ![Six columns and a six-app dock from a theme's config.json](../docs/theme-six-columns.jpg) |
-| *Aurora theme, pushed with `tools/theme.sh`* | *Six columns and a six-app dock, same launcher* |
+The [feature gallery and film](../README.md#feature-film) show this edition's app zoom, prayer widget
+and remote settings. The visuals were recreated from the app's source for this repository.
 
 ## Supported TVs
 

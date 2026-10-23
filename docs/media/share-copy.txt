@@ -1,0 +1,1 @@
+I made Glass TV feel more like home: app zoom, JAKIM prayer times, settings from the remote and a glass focus frame. Built for Android TV. https://github.com/ReamyNadzri/glass-tv

@@ -15,6 +15,7 @@ webos/samples/
 
 # Local publication notes, logs and screenshots.
 .local/
+brag-output*/
 # Device credentials and signing material must stay on each user's computer.
 *.jks
 *.keystore

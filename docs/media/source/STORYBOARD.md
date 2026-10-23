@@ -1,0 +1,1 @@
+Five scenes: Home on your terms (0–3); app focus, card zoom and return (3–7.1); six prayer times become top-bar option (7.1–12); change real settings from remote (12–17.45); home with strip resolves to Glass TV by ReamyNadzri and repository (17.45–22). Source faithful visualizations, not Android recordings.

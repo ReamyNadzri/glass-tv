@@ -6,6 +6,8 @@ from the remote, and a glass frame around the selected app to a lightweight Andr
 [![CI](https://github.com/ReamyNadzri/glass-tv/actions/workflows/ci.yml/badge.svg)](https://github.com/ReamyNadzri/glass-tv/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+[![Glass TV by ReamyNadzri: a new home for your TV](docs/media/glass-tv-hero.jpg)](https://raw.githubusercontent.com/ReamyNadzri/glass-tv/main/docs/media/glass-tv-launch.mp4)
+
 ## New Android TV features in this version
 
 - **App opening and return animations.** Choose Card, Glass, Lift, Stretch or Off, with Slow,
@@ -26,19 +28,13 @@ Glass TV debloats any Android TV or Google TV over Wi-Fi, with no root and nothi
 swaps the ad-filled home screen for a light one in frosted glass, with a new set of places behind your apps
 every week.
 
-<p>
-  <img src="docs/screenshots/promo-1-home.jpg" width="32%" alt="Your TV, fast and ad-free again: the TV behind on the left, the app grid behind on the right, Home over Mount Sneffels in front">
-  <img src="docs/screenshots/promo-2-features.jpg" width="32%" alt="Looks like Apple, runs on Android: glass, Inputs, a place a week, your own app order, no ads">
-  <img src="docs/screenshots/promo-3-clock.jpg" width="32%" alt="Ads off, time on: the clock screensaver">
-</p>
+## Feature film
 
-## Video tour
+[![Glass TV: app zoom, prayer times and settings in motion](docs/media/glass-tv-launch.gif)](https://raw.githubusercontent.com/ReamyNadzri/glass-tv/main/docs/media/glass-tv-launch.mp4)
 
-[![Glass TV screenshot tour: Home, app grid, Inputs and clock](docs/media/glass-tv-tour.gif)](https://raw.githubusercontent.com/ReamyNadzri/glass-tv/main/docs/media/glass-tv-tour.mp4)
-
-[Watch or download the 16-second MP4](https://raw.githubusercontent.com/ReamyNadzri/glass-tv/main/docs/media/glass-tv-tour.mp4).
-This is a silent tour made from the included screenshots; it shows the screens rather than live remote interaction.
-See [media credits](docs/media/README.md).
+[Watch or download the 22-second film](https://raw.githubusercontent.com/ReamyNadzri/glass-tv/main/docs/media/glass-tv-launch.mp4).
+Created with Brag and HyperFrames, with new visuals and original music. The UI is restaged from
+the app's source; prayer times are illustrative. [Media details and credits](docs/media/README.md).
 
 ## What you get
 
@@ -84,10 +80,12 @@ See [media credits](docs/media/README.md).
 
 | | |
 |---|---|
-| ![Home with Mount Sneffels behind the apps, its name, country and story above the glass dock](docs/screenshots/home.jpg) | ![The app grid scrolled down over the Chauvet cave, rows feathering out under the top bar](docs/screenshots/grid.jpg) |
-| *Home, with this week's place* | *Every app, feathering out under the top bar* |
-| ![The glass Inputs menu with HDMI 1 selected](docs/screenshots/inputs.jpg) | ![The clock screensaver: a grey analog dial, the time and the date](docs/screenshots/clock.jpg) |
-| *Inputs, in glass* | *The clock screensaver* |
+| ![App opening animation and glass focus frame](docs/media/glass-tv-focus.jpg) | ![JAKIM Waktu Solat widget with illustrative times](docs/media/glass-tv-prayer.jpg) |
+| *App zoom and glass focus* | *Waktu Solat at Home* |
+| ![Settings controlled from the remote](docs/media/glass-tv-settings.jpg) | ![Glass TV by ReamyNadzri](docs/media/glass-tv-hero.jpg) |
+| *Your settings, from the remote* | *Your apps. Your rhythm.* |
+
+Feature visuals are source-based recreations made for this repository.
 
 Still light: on a Xiaomi Mi TV with 1.8 GB of RAM the launcher uses about 80–100 MB and stays there over hours
 of use, one wallpaper is in memory at a time, the week's places take about 2 MB of storage, and nothing runs
@@ -159,6 +157,6 @@ online.
   [LICENSE](LICENSE). Its debloat lists, tools and launcher are the foundation of this project.
 - The Outfit typeface is under the SIL Open Font License (`launcher/FONT-LICENSE-OFL.txt`).
 - The Inputs icon is from Google's Material Icons (Apache 2.0).
-- Pictures of places and their captions are Bing's daily images (Microsoft). The launcher fetches them on your
-  own TV; the promo pictures above show three of them.
-- Gotham, used in the promo pictures only, is a Hoefler&Co. typeface and is not part of this repository.
+- Pictures of places and their captions are Bing's daily images (Microsoft), fetched by the launcher on your own TV.
+- The repository's feature film and images were created with Brag and HyperFrames; music is an original
+  synthesized score. See [media credits](docs/media/README.md).
